@@ -23,7 +23,9 @@ const RenderedPage: React.FC = props => {
           <IonTitle>RenderedPage</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent></IonContent>
+      <IonContent class="ion-padding">
+        This page is rendered via the Route->render function, with no props.
+      </IonContent>
     </IonPage>
   );
 };

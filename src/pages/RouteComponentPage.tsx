@@ -23,7 +23,10 @@ const RouteComponentPage: React.FC = props => {
           <IonTitle>RouteComponentPage</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent></IonContent>
+      <IonContent class="ion-padding">
+        This component shows how often Route components are re-rendered and what props they are
+        passed.
+      </IonContent>
     </IonPage>
   );
 };
