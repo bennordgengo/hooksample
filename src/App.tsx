@@ -33,6 +33,7 @@ import EffectPage from "./pages/EffectPage";
 import ReducerPage from "./pages/ReducerPage";
 import CallbackPage from "./pages/CallbackPage";
 import ContextPage from "./pages/ContextPage";
+import RefPage from "./pages/RefPage";
 
 const App: React.FC = () => {
   console.log("App rendering...");
@@ -45,6 +46,7 @@ const App: React.FC = () => {
           <Route exact path="/render" render={() => <RenderedPage />} />
           <Route exact path="/state" render={() => <StatePage />} />
           <Route exact path="/effect" render={() => <EffectPage />} />
+          <Route exact path="/ref" render={() => <RefPage />} />
           <Route exact path="/reducer" render={() => <ReducerPage />} />
           <Route exact path="/callback" render={() => <CallbackPage />} />
           <Route exact path="/context" render={() => <ContextPage />} />

@@ -32,6 +32,9 @@ const Home: React.FC = () => {
           <IonItem button routerLink="/effect">
             <IonLabel>EffectPage</IonLabel>
           </IonItem>
+          <IonItem button routerLink="/ref">
+            <IonLabel>RefPage</IonLabel>
+          </IonItem>
           <IonItem button routerLink="/reducer">
             <IonLabel>ReducerPage</IonLabel>
           </IonItem>
