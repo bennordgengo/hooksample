@@ -15,11 +15,11 @@ const loadDataFromCD = () => {
 
 const LabelWithSlowLoadingData: React.FC = () => {
   console.log("LabelWithSlowLoadingData rendering...");
-  const [data, setData] = useState();
+  const [data, setData] = useState<{}>();
 
   useEffect(() => {
     console.log("LabelWithSlowLoadingData: useEffect...");
-    setData(loadDataFromCD);
+    setData(loadDataFromCD());
   }, []);
 
   return <p>{JSON.stringify(data)}</p>;

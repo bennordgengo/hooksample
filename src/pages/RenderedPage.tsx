@@ -9,7 +9,7 @@ import {
 } from "@ionic/react";
 import React from "react";
 
-const RenderedPage: React.FC = props => {
+const RenderedPage: React.FC = (props) => {
   console.log("RenderedPage rendering...");
   console.log(props);
 
@@ -24,7 +24,7 @@ const RenderedPage: React.FC = props => {
         </IonToolbar>
       </IonHeader>
       <IonContent class="ion-padding">
-        This page is rendered via the Route->render function, with no props.
+        {"This page is rendered via the Route->render function, with no props."}
       </IonContent>
     </IonPage>
   );
